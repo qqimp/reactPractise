@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  padding-top: 37px;
+  align-items: center;
+  padding-bottom: 36pxgi;
+}
+
+.linksList {
+  display: flex;
+  align-items: center;
+}
+
+.linksList li {
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 1.362;
+}
+
+.linksList li:not(:last-child) {
+    margin-right: 50px;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 450px;
+}
+
+.logo .logotxt {
+  margin-left: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  
+}
+
+.buttonsList {
+    align-items: center;
+    display: flex;
+}
+
+.buttonsList li:not(:last-child) {
+    margin-right: 20px;
+    display: flex;
+}
+
+.userButton {
+    display: flex;
+    align-items: center;
+}
+
+.userButton p{
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.362;
+    color: #2C2C2C;
+}

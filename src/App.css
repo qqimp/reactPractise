@@ -1,0 +1,15 @@
+.container {
+  width: 1680px;
+  margin: 0 auto;
+  
+}
+
+button {
+  background:transparent ;
+  border: 0;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-weight: normal;
+}
