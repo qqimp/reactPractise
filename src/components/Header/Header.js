@@ -1,14 +1,16 @@
-import logo from '../../images/logo.svg'
-import logotxt from '../../images/logotxt.svg'
-import user from '../../images/user.svg'
-import lupa from '../../images/lupa.svg'
+import logo from '../../images/icons/logo.svg'
+import logotxt from '../../images/icons/logotxt.svg'
+import user from '../../images/icons/user.svg'
+import lupa from '../../images/icons/lupa.svg'
 import styles from './Header.module.css'
+import React from 'react'
+
 function Header() {
   return (
     <header className={styles.header}>
       <a href="/Home " className={styles.logo}>
         <img src={logo} alt="logo" />
-        <img src={logotxt} alt= "ravel" className={styles.logotxt}/>
+        <img src={logotxt} alt="ravel" className={styles.logotxt} />
       </a>
       <nav className={styles.nav}>
         <ul className={styles.linksList}>
@@ -38,7 +40,7 @@ function Header() {
             </button>
           </li>
         </ul>
-        </nav>
+      </nav>
     </header>
   )
 }

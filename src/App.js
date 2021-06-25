@@ -1,12 +1,16 @@
-import './App.css';
-import Header from './companents/Header/Header';
-import "./styles/modern-normalize.css"
+import './App.css'
+import './styles/modern-normalize.css'
+
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
+
 function App() {
   return (
     <div className="App container">
-      <Header/>
+      <Header />
+      <Hero />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
