@@ -1,15 +1,22 @@
 .container {
-  width: 1680px;
+  width: 1920px;
   margin: 0 auto;
-  
 }
 
 button {
-  background:transparent ;
+  background: transparent;
   border: 0;
 }
 
 body {
   font-family: 'Noto Serif', serif;
   font-weight: normal;
+}
+
+.imagewrapper {
+  width: 100%;
+  padding-right: 99px;
+  padding-left: 99px;
+  padding-top: 30px;
+  padding-bottom: 168px;
 }

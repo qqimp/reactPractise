@@ -1,0 +1,17 @@
+.fitch {
+  padding: 173px 263px;
+}
+
+.featuresList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuresList li {
+  width: 326px;
+  height: 326px;
+  padding-bottom: 60px;
+  padding-right: 38px;
+  padding-left: 38px;
+  background: #e5e5e5;
+}
