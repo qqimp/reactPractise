@@ -4,7 +4,7 @@ import user from '../../images/icons/user.svg'
 import lupa from '../../images/icons/lupa.svg'
 import styles from './Header.module.css'
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header className={styles.header}>
@@ -15,7 +15,16 @@ function Header() {
       <nav className={styles.nav}>
         <ul className={styles.linksList}>
           <li>
-            <a href="/destination">destination</a>
+            <Link to="/" exact>Home</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/contacts">Contacts</Link>
+          </li>
+          <li>
+            <Link to="/destination">Destination</Link>
           </li>
           <li>
             <a href="/offer">offer</a>
@@ -23,9 +32,7 @@ function Header() {
           <li>
             <a href="/tour">tour</a>
           </li>
-          <li>
-            <a href="/blog">blog</a>
-          </li>
+        
         </ul>
         <ul className={styles.buttonsList}>
           <li>

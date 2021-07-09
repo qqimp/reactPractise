@@ -1,0 +1,28 @@
+.logo {
+  margin-bottom: 26px;
+  display: flex;
+  margin-left: 255px;
+}
+
+.txt {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  color: rgba(167, 153, 151, 1);
+  margin-bottom: 30px;
+  margin-left: 255px;
+}
+
+.links{
+  color: rgba(167, 153, 151, 1);
+  margin-left: 255px;
+  margin-bottom: 90px;
+}
+
+.links li{
+  margin-bottom: 15px;
+
+
+}
