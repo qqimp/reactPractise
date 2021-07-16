@@ -2,6 +2,8 @@ import cuba from '../../images/icons/cuba.svg'
 import paris from '../../images/icons/paris.svg'
 import japan from '../../images/icons/japan.svg'
 import s from './Destination.module.css'
+import { destination } from '../../dataBase/destination.json'
+console.log(destination)
 export function Destination() {
   return (
     <>
@@ -16,18 +18,15 @@ export function Destination() {
           <button>Discover More</button>
         </div>
         <ul>
-          <li>
-            <img src={cuba}/>
-            <div>Cuba City</div>
-          </li>
-          <li>
-            <img src={paris}/>
-            <div>Paris</div>
-          </li>
-          <li>
-            <img src={japan}/>
-            <div>Japan</div>
-          </li>
+          {destination.map((object) => {
+            const { id, src, title } = object
+            return (
+              <li key={id}>
+                <img src={src} alt="img" width="200" />
+                <h3>{title}</h3>
+              </li>
+            )
+          })}
         </ul>
       </section>
     </>

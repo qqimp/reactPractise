@@ -15,7 +15,7 @@ function Header() {
       <nav className={styles.nav}>
         <ul className={styles.linksList}>
           <li>
-            <Link to="/" exact>Home</Link>
+            <Link to="/" exact="true">Home</Link>
           </li>
           <li>
             <Link to="/blog">Blog</Link>

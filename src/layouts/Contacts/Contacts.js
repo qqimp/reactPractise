@@ -15,13 +15,13 @@ export function Contacts() {
         </h2>
         <ul className={styles.links}>
           <li>
-            <a>+0123 456 987, +0123 456 987</a>
+            <a href="/Contacts">+0123 456 987, +0123 456 987</a>
           </li>
           <li>
-            <a>yourmailaddress@gmail.com</a>
+            <a href="/Contacts">yourmailaddress@gmail.com</a>
           </li>
           <li>
-            <a>www.yourwebsitename.com</a>
+            <a href="/Contacts">www.yourwebsitename.com</a>
           </li>
         </ul>
       </div>

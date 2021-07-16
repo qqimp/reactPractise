@@ -1,0 +1,19 @@
+{
+  "destination": [
+    {
+      "id": "01",
+      "src": "https://wallpaperaccess.com/full/284690.jpg",
+      "title": "Cuba City"
+    },
+    {
+      "id": "02",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIaZgUUDrj-7Rm6p5v5jaEzrW5zC74Xm12JkcEqFYTV8MaWuvybB2D7tgHWnmYB4iDH7w&usqp=CAU",
+      "title": "Paris"
+    },
+    {
+      "id": "03",
+      "src": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/26-10-2020-Unplash-Japan.jpg/image1170x530cropped.jpg",
+      "title": "Japan"
+    }
+  ]
+}

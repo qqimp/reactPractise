@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import s from './Hero.module.css'
+import PropTypes from 'prop-types'
 class Hero extends Component {
   state = { destination: '', data: '', price: '' }
   handleChange(e) {}
@@ -8,18 +9,17 @@ class Hero extends Component {
     let destination = e.currentTarget.destination.value
     let data = e.target.elements.date.value
     let price = e.target.elements.price.value
-    console.log(e.target.name , e.target.value)
-    this.setState({[e.target.name] : e.target.value})
-    // this.setState({ destination, checkIn: data, priceRange: price })
+    console.log(e.target.name, e.target.value)
+    this.setState({ [e.target.name]: e.target.value })
+    this.setState({ destination, checkIn: data, priceRange: price })
   }
   render() {
+    const { title } = this.props
     const { handleChange, handleSubmit } = this
     return (
       <>
         <section className={s.hero}>
-          <h1 className={s.heroTitle}>
-            It’s Time To <br /> Explore The World
-          </h1>
+          <h1 className={s.heroTitle}>{title}</h1>
           <button type="button" className={s.tripButton}>
             Plan Your Trip
           </button>
@@ -56,5 +56,11 @@ class Hero extends Component {
       </>
     )
   }
+}
+Hero.defaultProps = {
+  title: 'default Title',
+}
+Hero.propTypes = {
+  title: PropTypes.string.isRequired,
 }
 export default Hero

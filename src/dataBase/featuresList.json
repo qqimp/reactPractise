@@ -1,0 +1,28 @@
+{
+  "array": [
+    {
+      "id": "0",
+      "image": "../../images/icons/map.svg",
+      "title": "Choose Destination",
+      "content": "Lorem Ipsum is simply dummy text of the printing setting"
+    },
+    {
+      "id": "1",
+      "image": "../../src/images/icons/binocular1.svg",
+      "title": "Explore The Place",
+      "content": "Lorem Ipsum is simply dummy text of the printing setting"
+    },
+    {
+      "id": "2",
+      "image": "../../src/images/icons/backpack1.svg",
+      "title": "Start Your Journey",
+      "content": "Lorem Ipsum is simply dummy text of the printing setting"
+    },
+    {
+      "id": "3",
+      "image": "../../src/images/icons/ukulele1.svg",
+      "title": "Let’s Enjoy",
+      "content": "Lorem Ipsum is simply dummy text of the printing setting"
+    }
+  ]
+}

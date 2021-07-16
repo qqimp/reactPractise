@@ -3,6 +3,8 @@
   padding-top: 285px;
   padding-bottom: 381px;
   padding-left: 135px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .heroTitle {
